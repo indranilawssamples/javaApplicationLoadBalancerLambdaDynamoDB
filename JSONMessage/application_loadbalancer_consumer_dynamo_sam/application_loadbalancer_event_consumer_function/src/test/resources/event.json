@@ -1,0 +1,24 @@
+{
+    "requestContext": {
+        "elb": {
+            "targetGroupArn": "arn:aws:elasticloadbalancing:us-west-2:123456789012:targetgroup/applic-Appli-ER6WQDFMVNBU/ec35398481df7cf6"
+        }
+    },
+    "httpMethod": "POST",
+    "path": "/customers",
+    "queryStringParameters": {},
+    "headers": {
+        "accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2",
+        "connection": "keep-alive",
+        "content-length": "363",
+        "content-type": "application/json",
+        "host": "appli-Appli-ABCDEFGHIJKL-1082263160.us-west-2.elb.amazonaws.com",
+        "user-agent": "Java/17.0.7",
+        "x-amzn-trace-id": "Root=1-64b1fa5f-52e21a8975f2e1555903b35f",
+        "x-forwarded-for": "10.100.10.100",
+        "x-forwarded-port": "80",
+        "x-forwarded-proto": "http"
+    },
+    "body": "{\"person\":{\"firstname\":\"Jamal\",\"lastname\":\"Vanausdal\",\"company\":\"\\\"Hubbard, Bruce Esq\\\"\",\"street\":\"53075 Sw 152nd Ter #615\",\"city\":\"Monroe Township\",\"county\":\"Middlesex\",\"state\":\"NJ\",\"zip\":\"8831\",\"homePhone\":\"732-234-1546\",\"cellPhone\":\"732-904-2931\",\"email\":\"jamal@vanausdal.org\",\"website\":\"http://www.hubbardbruceesq.com\"},\"id\":\"Message0707-15-2023-01-07-58-61\"}",
+    "isBase64Encoded": false
+}
